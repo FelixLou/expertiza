@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
 
 gem 'rails'
+gem 'libv8'
+
 
 ## Gems in Alphabetical Order
-
+gem 'eventmachine', '~> 1.0.7'
 gem 'activerecord-session_store'
 gem 'awesome_nested_set'
 gem 'bind-it'
@@ -28,6 +30,7 @@ gem 'hoptoad_notifier'
 gem 'jquery-rails'
 gem 'jquery-ui-sass-rails'
 gem 'jquery-datetimepicker-rails'
+gem 'mysql'
 gem 'mysql2'
 gem 'nokogiri'
 gem 'omniauth-google-oauth2', '~> 0.2.6'
@@ -49,7 +52,7 @@ gem 'seer'
 gem 'sprockets'
 gem 'stanford-core-nlp'
 gem 'superfish-rails'
-gem 'therubyracer'
+##gem 'therubyracer'
 gem 'thin'
 gem 'turbolinks'
 gem 'uglifier'
